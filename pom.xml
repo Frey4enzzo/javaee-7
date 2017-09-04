@@ -13,12 +13,16 @@
     <modules>
         <module>chapter02</module>
         <module>chapter03</module>
+        <module>chapter04</module>
     </modules>
+
 
     <properties>
         <version.javaee>7.0</version.javaee>
         <version.weld>2.4.4.Final</version.weld>
         <version.mysql>6.0.6</version.mysql>
+        <version.eclipselink>2.6.5-RC2</version.eclipselink>
+        <version.hibernate.validator>5.4.1.Final</version.hibernate.validator>
     </properties>
 
     <dependencies>
@@ -36,11 +40,30 @@
             <version>${version.weld}</version>
         </dependency>
 
+        <!-- Bean Validation -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${version.hibernate.validator}</version>
+        </dependency>
+
         <!--Databases-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${version.mysql}</version>
+        </dependency>
+
+        <!-- JPA -->
+        <dependency>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>org.eclipse.persistence.jpa</artifactId>
+            <version>${version.eclipselink}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
+            <version>${version.eclipselink}</version>
         </dependency>
 
     </dependencies>

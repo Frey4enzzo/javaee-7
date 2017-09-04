@@ -10,6 +10,7 @@
         <module name="chapter02samples" />
         <module name="chapter03alltogether" />
         <module name="chapter03samples" />
+        <module name="chapter04" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="chapter03" target="1.5" />
       <module name="chapter03alltogether" target="1.5" />
       <module name="chapter03samples" target="1.5" />
+      <module name="chapter04" target="1.8" />
       <module name="javaee" target="1.5" />
     </bytecodeTargetLevel>
   </component>
