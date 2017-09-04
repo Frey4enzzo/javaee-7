@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/chapter02/chapter02.iml" filepath="$PROJECT_DIR$/chapter02/chapter02.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter02/chapter02-alltogether/chapter02-alltogether.iml" filepath="$PROJECT_DIR$/chapter02/chapter02-alltogether/chapter02-alltogether.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter02/chapter02samples/chapter02samples.iml" filepath="$PROJECT_DIR$/chapter02/chapter02samples/chapter02samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter03/chapter03.iml" filepath="$PROJECT_DIR$/chapter03/chapter03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter03/chapter03alltogether/chapter03alltogether.iml" filepath="$PROJECT_DIR$/chapter03/chapter03alltogether/chapter03alltogether.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter03/chapter03samples/chapter03samples.iml" filepath="$PROJECT_DIR$/chapter03/chapter03samples/chapter03samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaee.iml" filepath="$PROJECT_DIR$/javaee.iml" />
     </modules>
   </component>
