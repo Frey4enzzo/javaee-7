@@ -11,17 +11,19 @@
         <module name="chapter03alltogether" />
         <module name="chapter03samples" />
         <module name="chapter04" />
+        <module name="chapter05" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="chapter02" target="1.5" />
-      <module name="chapter02-alltogether" target="1.5" />
-      <module name="chapter02samples" target="1.5" />
-      <module name="chapter03" target="1.5" />
-      <module name="chapter03alltogether" target="1.5" />
-      <module name="chapter03samples" target="1.5" />
+      <module name="chapter02" target="1.8" />
+      <module name="chapter02-alltogether" target="1.8" />
+      <module name="chapter02samples" target="1.8" />
+      <module name="chapter03" target="1.8" />
+      <module name="chapter03alltogether" target="1.8" />
+      <module name="chapter03samples" target="1.8" />
       <module name="chapter04" target="1.8" />
-      <module name="javaee" target="1.5" />
+      <module name="chapter05" target="1.8" />
+      <module name="javaee" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

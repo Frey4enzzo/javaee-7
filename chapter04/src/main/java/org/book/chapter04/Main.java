@@ -12,15 +12,17 @@ public class Main {
     public static void main(String[] args) {
 
 
+        Book book1 = new Book("SNtjyjtgykyuk", 15.20, "Мемуары Лехи с Леонихи", "2-89758-135-2", 500, true);
+
         // передаем имя единицы сохраняемости в качестве параметра для коннекта с БД
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("chapter04");
         EntityManager em = emf.createEntityManager();
         EntityTransaction tx = em.getTransaction();
 
         // Обуспечение постоянства book в БД
-//        tx.begin();
-//
-//        tx.commit();
+        tx.begin();
+        em.persist(book1);
+        tx.commit();
 
         // находим книгу по id
         Book book = em.find(Book.class, 3L);
